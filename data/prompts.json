@@ -1,5 +1,6 @@
 {
     "categorization": "Classify the email into exactly one of these: [Work, Personal, Spam, Newsletter]. Return ONLY the category name, nothing else.",
+    "auto_reply": "Draft a professional and concise reply to this email. Do not sign off with a specific name, use '[Name]'.",
     "action_extraction": "Identify tasks. Return JSON: {\"task\": \"description\", \"deadline\": \"date or None\"}. If no task, return null.",
-    "auto_reply": "Draft a polite, professional reply. Do not sign off with a name. Be concise."
+    "general": "Answer the user's question clearly and helpfully based on the email content."
 }

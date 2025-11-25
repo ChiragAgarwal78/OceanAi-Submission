@@ -3,15 +3,15 @@
     "id": 101,
     "sender": "alert@bank-security.com",
     "subject": "Urgent: Suspicious Activity Detected",
-    "body": "We detected a login from a new device. Click here to verify your identity immediately.",
+    "body": "We detected a login from a new device in Brazil (IP: 192.168.x.x). If this wasn't you, click here to freeze your account immediately.",
     "timestamp": "2025-11-20 08:15:00",
     "category": "Unprocessed"
   },
   {
     "id": 102,
-    "sender": "newsletter@tech.com",
-    "subject": "Tech Weekly: AI Revolution",
-    "body": "Top stories: Llama 3 released, NVIDIA stocks soar, Python 3.13 features.",
+    "sender": "newsletter@tech-daily.com",
+    "subject": "Tech Weekly: AI is taking over?",
+    "body": "This week's top stories: Llama 3 released, NVIDIA stocks soar, and Python 3.13 introduces JIT compilation. Read the full analysis attached.",
     "timestamp": "2025-11-20 09:30:00",
     "category": "Unprocessed"
   },
@@ -19,7 +19,7 @@
     "id": 103,
     "sender": "boss@company.com",
     "subject": "Q3 Report Deadline",
-    "body": "Hi, I need the Q3 sales report by Friday 5 PM. Please explicitly list the risk factors.",
+    "body": "Hi, I need the Q3 sales report by Friday 5 PM. Please explicitly list the risk factors and revenue projections.",
     "timestamp": "2025-11-20 10:00:00",
     "category": "Unprocessed"
   },
@@ -27,15 +27,15 @@
     "id": 104,
     "sender": "hr@company.com",
     "subject": "Holiday Policy Update",
-    "body": "Please review the attached document regarding the new carry-over policy for annual leave.",
+    "body": "Please review the attached document regarding the new carry-over policy for annual leave. You must submit your leave requests by Dec 15th.",
     "timestamp": "2025-11-20 11:00:00",
     "category": "Unprocessed"
   },
   {
     "id": 105,
-    "sender": "recruiter@spammy.com",
+    "sender": "recruiter@spammy-jobs.net",
     "subject": "I have a job for you",
-    "body": "Are you interested in a new role? Earn $5000/day working from home!",
+    "body": "Are you interested in a new role? Earn $5000/day working from home! No experience needed. Click here to apply now.",
     "timestamp": "2025-11-20 12:45:00",
     "category": "Unprocessed"
   },
@@ -43,8 +43,200 @@
     "id": 106,
     "sender": "client@bigcorp.com",
     "subject": "Meeting Request: Phase 2 Kickoff",
-    "body": "Can we meet next Tuesday at 2 PM to discuss the Phase 2 roadmap? Let me know if that works.",
+    "body": "Can we meet next Tuesday at 2 PM to discuss the Phase 2 roadmap? I want to go over the budget and timeline. Let me know if that works.",
     "timestamp": "2025-11-20 14:20:00",
+    "category": "Unprocessed"
+  },
+  {
+    "id": 107,
+    "sender": "mom@family.com",
+    "subject": "Dinner this Sunday?",
+    "body": "Are you coming over for dinner? Dad is making lasagna. Let me know by tomorrow so I can buy groceries.",
+    "timestamp": "2025-11-20 16:00:00",
+    "category": "Unprocessed"
+  },
+  {
+    "id": 108,
+    "sender": "devops@company.com",
+    "subject": "Server Downtime Scheduled",
+    "body": "Maintenance is scheduled for Saturday 2 AM to 4 AM UTC. Please save all work and disconnect from the VPN.",
+    "timestamp": "2025-11-20 17:30:00",
+    "category": "Unprocessed"
+  },
+  {
+    "id": 109,
+    "sender": "amazon@shipping.com",
+    "subject": "Your package has arrived",
+    "body": "Your package was left at the front door. Track number: #998877. Rate your delivery driver here.",
+    "timestamp": "2025-11-20 18:45:00",
+    "category": "Unprocessed"
+  },
+  {
+    "id": 110,
+    "sender": "gym@fitness.com",
+    "subject": "Membership Renewal",
+    "body": "Your membership expires in 3 days. Renew now to keep your current rate of $30/month.",
+    "timestamp": "2025-11-21 07:00:00",
+    "category": "Unprocessed"
+  },
+  {
+    "id": 111,
+    "sender": "project-lead@company.com",
+    "subject": "Code Review Needed",
+    "body": "I've pushed the new feature branch (feat/login-auth). Can you review the PR before EOD? It's critical for the release.",
+    "timestamp": "2025-11-21 09:15:00",
+    "category": "Unprocessed"
+  },
+  {
+    "id": 112,
+    "sender": "marketing@promo.com",
+    "subject": "Black Friday Sale Starts Now!",
+    "body": "50% off everything in the store. Use code BLACKFRIDAY at checkout. Offer valid for 24 hours only.",
+    "timestamp": "2025-11-21 10:00:00",
+    "category": "Unprocessed"
+  },
+  {
+    "id": 113,
+    "sender": "colleague@company.com",
+    "subject": "Lunch?",
+    "body": "Heading to the taco place at 12:30. Want to join? I'm buying rounds.",
+    "timestamp": "2025-11-21 11:45:00",
+    "category": "Unprocessed"
+  },
+  {
+    "id": 114,
+    "sender": "billing@saas.com",
+    "subject": "Invoice #1023 Failure",
+    "body": "Your payment of $49.00 failed. Please update your card information to avoid service interruption.",
+    "timestamp": "2025-11-21 13:20:00",
+    "category": "Unprocessed"
+  },
+  {
+    "id": 115,
+    "sender": "unknown@rich-prince.net",
+    "subject": "Business Proposal",
+    "body": "I have $50M USD to transfer. I need your help. You will keep 10% for your assistance. Reply immediately.",
+    "timestamp": "2025-11-21 15:00:00",
+    "category": "Unprocessed"
+  },
+  {
+    "id": 116,
+    "sender": "notifications@jira.com",
+    "subject": "Ticket #502 Updated",
+    "body": "Status changed from 'In Progress' to 'Done'. Assignee: You. Please verify the fix in staging.",
+    "timestamp": "2025-11-21 16:15:00",
+    "category": "Unprocessed"
+  },
+  {
+    "id": 117,
+    "sender": "landlord@properties.com",
+    "subject": "Rent Increase Notice",
+    "body": "This is to inform you that your rent will increase by 5% starting next month due to market adjustments.",
+    "timestamp": "2025-11-21 17:00:00",
+    "category": "Unprocessed"
+  },
+  {
+    "id": 118,
+    "sender": "newsletter@datascience.com",
+    "subject": "The Future of LLMs",
+    "body": "Are prompt engineers doomed? We discuss the rise of agentic AI and what it means for the industry.",
+    "timestamp": "2025-11-22 08:30:00",
+    "category": "Unprocessed"
+  },
+  {
+    "id": 119,
+    "sender": "recruiter@linkedin.com",
+    "subject": "Google is hiring",
+    "body": "I saw your profile and thought you'd be a great fit for a Senior Engineer role at Google. Are you open to a chat?",
+    "timestamp": "2025-11-22 09:45:00",
+    "category": "Unprocessed"
+  },
+  {
+    "id": 120,
+    "sender": "intern@company.com",
+    "subject": "Help with setup",
+    "body": "Hi, I'm having trouble setting up the local environment. The documentation seems outdated. Can you help me for 10 mins?",
+    "timestamp": "2025-11-22 10:30:00",
+    "category": "Unprocessed"
+  },
+  {
+    "id": 121,
+    "sender": "ceo@company.com",
+    "subject": "Town Hall Meeting",
+    "body": "Reminder: The quarterly Town Hall starts in 1 hour. Attendance is mandatory for all department heads.",
+    "timestamp": "2025-11-22 11:00:00",
+    "category": "Unprocessed"
+  },
+  {
+    "id": 122,
+    "sender": "offers@uber-eats.com",
+    "subject": "Your lunch is on us (almost)",
+    "body": "Get 30% off your next 3 orders. Use code YUMMY30. Expires tonight.",
+    "timestamp": "2025-11-22 12:15:00",
+    "category": "Unprocessed"
+  },
+  {
+    "id": 123,
+    "sender": "security@google.com",
+    "subject": "Security Alert",
+    "body": "New sign-in to your Google Account on a Windows device. Review activity now.",
+    "timestamp": "2025-11-22 13:40:00",
+    "category": "Unprocessed"
+  },
+  {
+    "id": 124,
+    "sender": "friend@gmail.com",
+    "subject": "Concert tickets?",
+    "body": "Hey! I have two extra tickets to the Coldplay concert next month. Do you want them? Let me know ASAP.",
+    "timestamp": "2025-11-22 14:50:00",
+    "category": "Unprocessed"
+  },
+  {
+    "id": 125,
+    "sender": "payroll@company.com",
+    "subject": "Payslip Available",
+    "body": "Your payslip for November 2025 is now available to view on the portal.",
+    "timestamp": "2025-11-22 15:30:00",
+    "category": "Unprocessed"
+  },
+  {
+    "id": 126,
+    "sender": "phishing@sketchy.com",
+    "subject": "FINAL NOTICE: ACCOUNT SUSPENDED",
+    "body": "We have suspended your Netflix account due to payment failure. Update payment info here or lose access forever.",
+    "timestamp": "2025-11-22 16:20:00",
+    "category": "Unprocessed"
+  },
+  {
+    "id": 127,
+    "sender": "team@slack.com",
+    "subject": "You have new mentions",
+    "body": "You have 3 unread mentions in #general and #dev-ops. Click to view.",
+    "timestamp": "2025-11-22 17:05:00",
+    "category": "Unprocessed"
+  },
+  {
+    "id": 128,
+    "sender": "dad@family.com",
+    "subject": "Car trouble",
+    "body": "My car won't start. Can you pick me up from the mechanic at 5 PM?",
+    "timestamp": "2025-11-22 17:45:00",
+    "category": "Unprocessed"
+  },
+  {
+    "id": 129,
+    "sender": "service@aws.com",
+    "subject": "AWS Budget Alert",
+    "body": "Your account has exceeded 85% of your budgeted amount for this month.",
+    "timestamp": "2025-11-22 19:00:00",
+    "category": "Unprocessed"
+  },
+  {
+    "id": 130,
+    "sender": "empty@test.com",
+    "subject": "Glitch Email",
+    "body": "",
+    "timestamp": "2025-11-22 20:00:00",
     "category": "Unprocessed"
   }
 ]
