@@ -153,13 +153,11 @@ with t4:
         st.write("")
         up = st.file_uploader("UPLOAD CUSTOM JSON", type="json")
         if up: 
-            try:
                 new_data = json.load(up)
                 if st.session_state.agent.import_emails(new_data): 
                     st.toast(f"SUCCESS! LOADED {len(new_data)} EMAILS")
-                    import time; time.sleep(1); st.rerun()
                 else: st.error("Invalid JSON format.")
-            except: st.error("File is not valid JSON.")
+            
 
     with c2:
         st.markdown("<b>BRAIN RULES</b>", unsafe_allow_html=True)
